@@ -1,16 +1,25 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+/* body {
+  width: 100%;
+} */
+
 .container {
-  max-width: 2090px;
+  width: 2090px;
+  /* width: 100vh; */
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
 
 caption {
   font-size: 16px;
-  margin: 20px;
+  margin-block-end: 20px;
   color: rgb(34, 34, 34);
 }
 
